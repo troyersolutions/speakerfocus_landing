@@ -25,6 +25,7 @@ export default ({
                                 allow="autoplay" 
                                 allowfullscreen="" 
                                 frameborder="0" 
+                                title=""
                                 src={`https://www.youtube.com/embed/${item}?showinfo=0&amp;wmode=transparent&amp;rel=0&amp;autoplay=0&amp;mute=0&amp;controls=1`}
                             />
                         </Item>

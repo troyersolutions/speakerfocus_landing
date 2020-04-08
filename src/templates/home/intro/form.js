@@ -56,6 +56,7 @@ export default () => {
                     variant="filled"
                     fullWidth
                     required
+                    aria-label="Enter your name"
                 />
                 <Field 
                     label="Your Email"
@@ -66,6 +67,7 @@ export default () => {
                     variant="filled"
                     fullWidth
                     required
+                    aria-label="Enter your email address"
                 />
                 <Field 
                     label="Your Phone"
@@ -76,6 +78,7 @@ export default () => {
                     variant="filled"
                     fullWidth
                     required
+                    aria-label="Enter your phone number"
                 />
                 <Submit 
                     variant="contained"
@@ -93,7 +96,7 @@ const Wrapper = styled.div`
     padding:${props => props.theme.spacing(3)}px;
     display:grid;
     grid-row-gap:${props => props.theme.spacing(3)}px;
-    background-color:rgba(0,0,0,0.05);
+    background-color: rgb(250,250,250);
     grid-row:3;
     @media (min-width:992px) {
         grid-column: 3/4;
