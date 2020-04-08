@@ -6,7 +6,7 @@ export default () => {
             file(relativePath: { eq: "laptop-trans.png" }) {
                 childImageSharp {
                     fluid(maxWidth: 350) {
-                      ...GatsbyImageSharpFluid
+                      ...GatsbyImageSharpFluid_withWebp
                     }
                 }
             }
